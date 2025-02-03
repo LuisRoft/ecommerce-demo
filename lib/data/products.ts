@@ -18,7 +18,7 @@ export const products: Product[] = [
     brand: "John Deere",
     price: 45.99,
     description: "226-1541 B03 - Side 1 shelf 1a tractor parts line 7",
-    image: "/assets/images/products/tractor-parts/jde/piston-and-liner-kit.png",
+    image: "/assets/images/products/tractor-parts/JDE/piston-and-liner-kit.png",
     slug: "piston-and-liner-kit-john-deere",
   },
   {
@@ -28,7 +28,7 @@ export const products: Product[] = [
     brand: "John Deere",
     price: 32.5,
     description: "PART: 1340/07012 - Side 1 shelf 1a tractor parts line 60",
-    image: "/assets/images/products/tractor-parts/jde/hex-nut.webp",
+    image: "/assets/images/products/tractor-parts/JDE/hex-nut.webp",
     slug: "hex-nut-3-4-unf-john-deere",
   },
   {
@@ -38,7 +38,7 @@ export const products: Product[] = [
     brand: "Caterpillar",
     price: 28.75,
     description: "Side 1 shelf 2a tractor parts line 312",
-    image: "/assets/images/products/tractor-parts/cat/gasket.webp",
+    image: "/assets/images/products/tractor-parts/CAT/gasket.webp",
     slug: "gasket-caterpillar",
   },
   {
@@ -48,7 +48,7 @@ export const products: Product[] = [
     brand: "Caterpillar",
     price: 28.75,
     description: "Side 1 shelf 2a tractor parts line 331",
-    image: "/assets/images/products/tractor-parts/cat/washer.webp",
+    image: "/assets/images/products/tractor-parts/CAT/washer.webp",
     slug: "washer-caterpillar",
   },
   {
@@ -69,7 +69,7 @@ export const products: Product[] = [
     brand: "JCB",
     price: 15.99,
     description: "1 KIT - Side 1 shelf 1a tractor parts line 23",
-    image: "/assets/images/products/tractor-parts/jcb/bottom-gasket-set.webp",
+    image: "/assets/images/products/tractor-parts/JCB/bottom-gasket-set.webp",
     slug: "bottom-gasket-set-jcb",
   },
   {
@@ -80,7 +80,7 @@ export const products: Product[] = [
     price: 15.99,
     description: "Side 1 shelf 1b tractor parts line 85",
     image:
-      "/assets/images/products/tractor-parts/timken/tapered-roller-bearings.webp",
+      "/assets/images/products/tractor-parts/TIMKEN/tapered-roller-bearings.webp",
     slug: "tapered-roller-bearings-timken",
   },
   {
@@ -90,7 +90,7 @@ export const products: Product[] = [
     brand: "TIMKEN",
     price: 15.99,
     description: "Side 1 shelf 1b tractor parts line 149",
-    image: "/assets/images/products/tractor-parts/timken/seal.webp",
+    image: "/assets/images/products/tractor-parts/TIMKEN/seal.webp",
     slug: "seal-timken",
   },
   {
@@ -100,7 +100,7 @@ export const products: Product[] = [
     brand: "SKF",
     price: 14.99,
     description: "HMS4 R - Side 1 shelf 1b tractor parts lines 82 and 91",
-    image: "/assets/images/products/tractor-parts/skf/oil-seal.webp",
+    image: "/assets/images/products/tractor-parts/SKF/oil-seal.webp",
     slug: "oil-seal-skf",
   },
   {
@@ -110,7 +110,7 @@ export const products: Product[] = [
     brand: "SKF",
     price: 14.99,
     description: "BF1D - Side 1 shelf 1b tractor parts lines 82 and 91",
-    image: "/assets/images/products/tractor-parts/skf/radial-ball-bearing.webp",
+    image: "/assets/images/products/tractor-parts/SKF/radial-ball-bearing.webp",
     slug: "radial-ball-bearing-skf",
   },
   {
@@ -120,7 +120,7 @@ export const products: Product[] = [
     brand: "CASE",
     price: 22.5,
     description: "Side 1 shelf 1b tractor parts line 170",
-    image: "/assets/images/products/tractor-parts/case/gasket.webp",
+    image: "/assets/images/products/tractor-parts/CASE/gasket.webp",
     slug: "gasket-case",
   },
   {
@@ -130,7 +130,7 @@ export const products: Product[] = [
     brand: "CASE",
     price: 22.5,
     description: "Side 1 shelf 1b tractor parts line 212",
-    image: "/assets/images/products/tractor-parts/case/bolts.webp",
+    image: "/assets/images/products/tractor-parts/CASE/bolts.webp",
     slug: "bolts-case",
   },
   {
@@ -140,7 +140,7 @@ export const products: Product[] = [
     brand: "LONG",
     price: 12.99,
     description: "Side 1 shelf 2a tractor parts line 274",
-    image: "/assets/images/products/tractor-parts/long/plate.webp",
+    image: "/assets/images/products/tractor-parts/LONG/plate.webp",
     slug: "plate-long",
   },
   {
@@ -150,7 +150,7 @@ export const products: Product[] = [
     brand: "LONG",
     price: 12.99,
     description: '1/2" - Side 1 shelf 1c tractor parts line 821',
-    image: "/assets/images/products/tractor-parts/long/washers.webp",
+    image: "/assets/images/products/tractor-parts/LONG/washers.webp",
     slug: "washers-long",
   },
   {
@@ -160,7 +160,7 @@ export const products: Product[] = [
     brand: "MITSUBISHI",
     price: 30.0,
     description: "Side 1 shelf 2c tractor parts line 836",
-    image: "/assets/images/products/tractor-parts/mitsubishi/assy.webp",
+    image: "/assets/images/products/tractor-parts/MITSUBISHI/assy.webp",
     slug: "assy-mitsubishi",
   },
   {
@@ -171,7 +171,7 @@ export const products: Product[] = [
     price: 30.0,
     description: "Side 1 shelf 2c tractor parts line 923",
     image:
-      "/assets/images/products/tractor-parts/mitsubishi/draft-control-rod.webp",
+      "/assets/images/products/tractor-parts/MITSUBISHI/draft-control-rod.webp",
     slug: "draft-control-rod-mitsubishi",
   },
   {
@@ -181,7 +181,7 @@ export const products: Product[] = [
     brand: "DANA",
     price: 30.0,
     description: "Side 1 shelf 2c truck parts line 948",
-    image: "/assets/images/products/truck-parts/dana/spacer.webp",
+    image: "/assets/images/products/truck-parts/DANA/spacer.webp",
     slug: "spacer-dana",
   },
   {
@@ -191,7 +191,7 @@ export const products: Product[] = [
     brand: "DANA",
     price: 30.0,
     description: "Side 1 shelf 2c truck parts line 982",
-    image: "/assets/images/products/truck-parts/dana/bearing.webp",
+    image: "/assets/images/products/truck-parts/DANA/bearing.webp",
     slug: "bearing-dana",
   },
 ];
