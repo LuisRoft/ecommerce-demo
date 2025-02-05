@@ -25,7 +25,10 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-          <div className="p-6 border border-neutral-800 rounded-lg hover:bg-gray-800 transition-colors flex flex-col items-center">
+          <Link
+            href="/tractor-parts"
+            className="p-6 border border-neutral-800 rounded-lg hover:bg-gray-800 transition-colors flex flex-col items-center"
+          >
             <div className="bg-blue-200 rounded-xl p-1 mb-2">
               <LucideTractor className="text-blue-400" size={35} />
             </div>
@@ -35,9 +38,12 @@ export default function Home() {
             <p className="text-sm text-gray-400">
               John Deere, Caterpillar, Case
             </p>
-          </div>
+          </Link>
 
-          <div className="py-6 px-4 border border-neutral-800 rounded-lg flex flex-col items-center hover:bg-gray-800 transition-colors">
+          <Link
+            href="/truck-parts"
+            className="py-6 px-4 border border-neutral-800 rounded-lg flex flex-col items-center hover:bg-gray-800 transition-colors"
+          >
             <div className="bg-blue-200 rounded-xl p-1 mb-2">
               <LucideTruck className="text-blue-400" size={35} />
             </div>
@@ -45,15 +51,22 @@ export default function Home() {
             <p className="text-sm text-gray-400">
               Original and alternative spare parts
             </p>
-          </div>
+          </Link>
 
-          <div className="p-6 border border-neutral-800 rounded-lg flex flex-col items-center hover:bg-gray-800 transition-colors">
+          <Link
+            href="/scooter-parts"
+            className="p-6 border border-neutral-800 rounded-lg flex flex-col items-center hover:bg-gray-800 transition-colors"
+          >
             <div className="bg-blue-200 rounded-xl p-1 mb-2">
               <LucideWrench className="text-blue-400" size={35} />
             </div>
-            <h3 className="text-blue-400 text-xl font-semibold">Accessories</h3>
-            <p className="text-sm text-gray-400">Tires, Belts, and more</p>
-          </div>
+            <h3 className="text-blue-400 text-xl font-semibold">
+              Scooter Parts
+            </h3>
+            <p className="text-sm text-gray-400">
+              Parts and accessories for scooters
+            </p>
+          </Link>
         </div>
       </div>
     </div>

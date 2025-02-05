@@ -11,7 +11,7 @@ export function BrandFilter() {
 
   return (
     <div className="lg:hidden mb-6">
-      <h3 className="text-sm text-neutral-400 mb-2">Filtrar por marca:</h3>
+      <h3 className="text-sm text-neutral-700 mb-2">Filtrar por marca:</h3>
       <div className="flex flex-wrap gap-2">
         {currentCategory?.brands.map((brand) => (
           <Button

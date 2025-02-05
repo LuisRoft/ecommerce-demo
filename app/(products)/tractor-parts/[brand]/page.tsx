@@ -32,7 +32,7 @@ export default async function BrandPage({
         <h1 className="text-3xl font-bold">{brandName}</h1>
         <BrandFilter />
         <p className="text-neutral-400 mt-2">
-          Mostrando {products.length} productos
+          Showing {products.length} products
         </p>
       </div>
       <ProductGrid products={products} />
